@@ -1,7 +1,7 @@
 {
-    "name": "⛦ 𝐁𝐫𝐚𝐧𝐝𝐫𝐝 𝐗 𝐌𝐮𝐬𝐢𝐜 ⛦",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/62fa7c81c56c1ae31c844.jpg",
+    "name": "⛦ 𝚂𝚄𝙾𝚁𝙲𝙴 𝙺𝙸𝙽𝙶 ⛦",
+    "description": "〔 سـورس الملك 𝚂𝙾𝚄𝚁𝙲𝙴 𝙺𝙸𝙽𝙶 𖤍 \n افضـل سـورس لتشغيل الصوتيات في المكالمه  › تحديثـات متواصله › 〔 حصريـاً 〕\n - مطـور السـورس : 𝙰𝙱𝙳𝚄𝙻𝙻𝙰𝙷",
+    "logo": "https://graph.org/file/2f199ef466e7950dd5e79.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -13,45 +13,51 @@
     ],
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "description": "اتركه كما هو.",
+        "value": "20036317",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "description": "اتركه كما هو.",
+        "value": "986cb4ba434870a62fe96da3b5f6d411",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "ضع هنا تكون البوت الذي صنعته من @BotFather.",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
+        "description": "لا تغيره. او قم بانشاء قاعده البيانات. الشرح https://t.me/EF_19/2.",
+        "value": "mongodb+srv://Music:Music@cluster0.yjgit72.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         "required": true
       },
       "OWNER_ID": {
-        "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "description": "ايدي المستخدم الذي ترغب في إضافته كـ مطور البوت",
+        "value": "5145609515",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @BRANDEDSTRINGSESSION_BOT on Telegram.",
+        "description": "ضع هنا كود بايروجرام الحساب المساعد",
         "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
+        "description": 
+       "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
         "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "Your heroku app name",
+        "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة.",
         "value": "",
         "required": false
       },
+      "LOGGER_ID": {
+        "description": "ادخل ايدي مجموعة السجل بجانب الرقم -100 فـي المربع〔 سوي مجموعة جديدة وروح لاعدادات المجموعة وخلي السجل ظاهر .. بعدها ارفع البوت والحساب المساعد إشـراف وافتـح المكالمه بعدها جيب ايدي المجموعة لهنا 〕.",
+        "value": "-100",
+        "required": true
+      }
        "AUTO_GCAST": {
         "description": "Fill here [True] for on auto gcast/broadcast message, (Leave Blank This Field & skip To Disbale Auto Gcast/Broadcast.)",
         "value": "True",
@@ -61,11 +67,6 @@
         "description": "Fill here auto broadcast message which will be auto broadcast twice in a day. ( any type of message you can copy and paste here )",
         "value": "",
         "required": false
-      }, 
-      "LOGGER_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
-        "value": "",
-        "required": true
       }
     },
     "buildpacks": [
