@@ -71,9 +71,9 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("GY_19")
+                #await self.one.join_chat("GY_19")
                 await self.one.join_chat("WG_19")
-                await self.one.join_chat("EF_19")
+                #await self.one.join_chat("EF_19")
                 #await self.one.join_chat("ABOUT_BRANDEDKING")
 
             except:
