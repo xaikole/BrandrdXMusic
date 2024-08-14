@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "20036317",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "986cb4ba434870a62fe96da3b5f6d411",
         "required": true
       },
       "BOT_TOKEN": {
@@ -29,12 +29,12 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
+        "value": "mongodb+srv://abood:king@cluster0.rbp1cqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "value": "5145609515",
         "required": true
       },
       "STRING_SESSION": {
@@ -59,12 +59,12 @@
       },
       "AUTO_GCAST_MSG": {
         "description": "Fill here auto broadcast message which will be auto broadcast twice in a day. ( any type of message you can copy and paste here )",
-        "value": "",
+        "value": "♥.",
         "required": false
       }, 
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
-        "value": "",
+        "value": "-1001804181293",
         "required": true
       }
     },
